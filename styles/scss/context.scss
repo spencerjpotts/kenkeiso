@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+.navigation-menu {
+  .brand-title {
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+  }
+
+  nav {
+    margin: 20vh 0;
+    ul {
+      li {
+        a {
+          // font-family: 'Amatic SC', cursive;
+          // font-family: 'Indie Flower', cursive;
+          // font-family: 'Patrick Hand', cursive;
+          text-decoration: none;
+
+          font-weight: 100;
+          font-size: 24px;
+          color: black;
+          // border-bottom: 0px solid black;
+          transition: 0.5s;
+          &:hover {
+            transition: 0.5s;
+            opacity: 0.5;
+            text-decoration: none;
+            color: black;
+            // border-bottom: 1px solid black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.navigation-menu {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width:  100%;
+
+    span {
+      font-weight: 100;
+      font-size: 24px;
+      color: black;
+    }
+  }
+}
+
+.left-slot {
+  ul {
+    li {
+      // opacity: 0;
+    }
+  }
+}

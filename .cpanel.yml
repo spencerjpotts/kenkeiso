@@ -1,0 +1,17 @@
+
+# https://documentation.cpanel.net/display/CKB/Guide+to+Git+-+Deployment
+
+deployment:
+  tasks:
+    # System Variable paths
+    - export DEPLOYPATH=/home/webtradi/kenkeiso.webtradie.com/
+
+    # HTML5 Static files
+    - /bin/cp index.html $DEPLOYPATH
+
+    # CSS Style Resources and Image asset resources
+    - /bin/cp /styles/css $DEPLOYPATH
+    - /bin/cp /js $DEPLOYPATH
+
+    # 
+    # - /bin/cp .htaccess $DEPLOYPATH
