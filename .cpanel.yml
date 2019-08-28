@@ -1,5 +1,13 @@
 
 # https://documentation.cpanel.net/display/CKB/Guide+to+Git+-+Deployment
+#
+# Website: https://webtradie.com
+# GitHub: github.com/spencerjpotts
+# Author: Spencer j Potts
+# Date: 28/08/19
+# Description: copy files into the appropriate directories to help the deployment of the website.
+#
+# 
 
 deployment:
   tasks:
