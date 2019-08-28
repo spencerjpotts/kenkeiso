@@ -18,8 +18,8 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
 
     # CSS Style Resources and Image asset resources
-    - /bin/cp /styles/css $DEPLOYPATH
-    - /bin/cp /js $DEPLOYPATH
+    - /bin/cp /styles/css/ $DEPLOYPATH
+    - /bin/cp /js/ $DEPLOYPATH
 
     # 
     # - /bin/cp .htaccess $DEPLOYPATH
